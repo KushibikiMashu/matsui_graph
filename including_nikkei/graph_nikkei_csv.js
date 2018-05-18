@@ -3,7 +3,8 @@
 
 var seriesOptions = [],
     seriesCounter = 0,
-    names = ['sell', 'buy'];
+    // names = ['sell', 'buy'];
+    names = ['sell', 'nikkei'];
 
 
 /**
@@ -47,12 +48,12 @@ function createChart() {
 
     yAxis: [{
         title: {
-            text: 'buyside',
+            text: 'sellside',
         },
         opposite: false,
     },  {
         title: {
-            text: 'sellside',
+            text: 'nikkei',
             // rotation: 270
         },
         opposite: true, // Y軸の位置
